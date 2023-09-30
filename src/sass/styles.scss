@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-back);
+}
+
+:root {
+  --grey-color: #4C5866;
+  --light-gray-color: #85859B;
+  --gray-back: #F0F0F0;
+  --blue-color: #7875FE;
+  --white-color: #fff;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+// СТИЛИ ДЛЯ МЕНЮ ВЫНИСИ В ОТДЕЛЬНЫЙ ФАЙЛ И ПОДКЛЮЧИ ЧЕРЕЗ ИМПОРТ В ГЛАВНЫЙ ФАЙЛ styles.scss
+.menu {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+
+  &__logo {
+    display: block;
+    width: 140;
+    height: 22px;
+  }
+
+  &__links {
+    display: flex;
+    width: 536px;
+    justify-content: space-between;
+
+  }
+
+  &_link {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--grey-color);
+
+    &:hover {
+      color: var(--light-gray-color);
+    }
+  }
+
+  &__utils {
+    display: flex;
+    justify-content: space-between;
+    width: 78px;
+    height: 24px;
+
+  }
+}
+
+// Это можешь сделать либо через позиционирование или черз grid-container
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 620px;
+  background-color: var(--white-color);
+}
+
+
+.second{
+  display: block;
+}
+
+.card_holder{
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+}
