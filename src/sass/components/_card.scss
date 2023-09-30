@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+
+  &__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__devider {
+    width: 100%;
+    border: .5px solid;
+    color: var(--light-gray-color);
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    margin-top: 20px;
+    width: 160px;
+    height: 100%;
+  }
+}

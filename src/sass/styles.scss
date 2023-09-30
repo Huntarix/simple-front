@@ -1,3 +1,6 @@
+@import './components/menu.scss';
+@import './components/card.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +13,8 @@ body {
 
 :root {
   --grey-color: #4C5866;
-  --light-gray-color: #85859B;
+  --middle-gray-color: #85859B;
+  --light-gray-color: #C0C0C0;
   --gray-back: #F0F0F0;
   --blue-color: #7875FE;
   --white-color: #fff;
@@ -22,67 +26,17 @@ body {
   position: relative;
 }
 
-
-// СТИЛИ ДЛЯ МЕНЮ ВЫНИСИ В ОТДЕЛЬНЫЙ ФАЙЛ И ПОДКЛЮЧИ ЧЕРЕЗ ИМПОРТ В ГЛАВНЫЙ ФАЙЛ styles.scss
-.menu {
-  display: flex;
-  flex-direction: row;
-  height: 80px;
-  align-items: center;
-  justify-content: space-around;
-
-  &__logo {
-    display: block;
-    width: 140;
-    height: 22px;
-  }
-
-  &__links {
-    display: flex;
-    width: 536px;
-    justify-content: space-between;
-
-  }
-
-  &_link {
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: var(--grey-color);
-
-    &:hover {
-      color: var(--light-gray-color);
-    }
-  }
-
-  &__utils {
-    display: flex;
-    justify-content: space-between;
-    width: 78px;
-    height: 24px;
-
-  }
-}
-
 // Это можешь сделать либо через позиционирование или черз grid-container
 .main {
   display: flex;
   flex-direction: row;
   height: 620px;
   background-color: var(--white-color);
+  margin-bottom: 90px;
 }
 
-
-.second{
-  display: block;
-}
-
-.card_holder{
+.wrapper {
   display: flex;
   flex-direction: row;
-}
-
-.card{
-  display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
