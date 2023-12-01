@@ -1,105 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple</title>
-  <link rel="stylesheet" href="css/styles.min.css">
+    <meta charset="UTF-8">
+    <title>Simple</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
-  <section class="menu">
+<header class="header">
+    <img src="assets/icons/logo.svg" alt="logo" class="header__logo">
 
-    <a href="#" class="menu__logo-link">
-      <img src="assets/icons/logo.svg" alt="logo-icon" class="menu__logo">
-    </a>
+    <nav class="menu">
+        <a href="#">Продукция</a>
+        <a href="#">Материалы</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+    </nav>
 
-
-    <div class="menu__links">
-      <a href="#" class="menu_link">Материалы</a>
-      <a href="#" class="menu_link">Продукция</a>
-      <a href="#" class="menu_link">О нас</a>
-      <a href="#" class="menu_link">Контакты</a>
+    <div class="header__wrapper">
+        <button><img src="assets/icons/menu.svg" alt="hamburger"></button>
+        <div class="header__right">
+            <button><img src="assets/icons/search.svg" alt="search"></button>
+            <button><img src="assets/icons/log_in.svg" alt="login"></button>
+        </div>
     </div>
+</header>
 
+<section class="promo">
+    <h1 class="promo_title">Простые вещи. Из бумаги</h1>
+    <p class="promo_description">
+        Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал
+        с минеральными добавками.
+    </p>
 
-    <div class="menu__utils">
-      <img src="assets/icons/search.svg" alt="" class="menu_search">
-      <img src="assets/icons/login.svg" alt="" class="menu_login">
+    <button class="sm-btn">Каталог</button>
+</section>
+
+<section class="advantages">
+    <div class="xs-container">
+        <div class="card">
+            <img src="assets/images/buissnes_cards-v1.png" alt="buissnes_cards-v1" class="card_img">
+            <div class="card__description">
+                <h2 class="card_title">V.1</h2>
+                <p class="card_description">Результат вашего обучения</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/images/buissnes_cards-v2.png" alt="buissnes_cards-v1" class="card_img">
+            <div class="card__description">
+                <h2 class="card_title">V.2</h2>
+                <p class="card_description">Результат вашего обучения</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/images/buissnes_cards-v3.png" alt="buissnes_cards-v1" class="card_img">
+            <div class="card__description">
+                <h2 class="card_title">V.3</h2>
+                <p class="card_description">Результат вашего обучения</p>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
 
-  <section class="main">
-    <div class="container">
-      <div class="main__content-block">
-        <h1 class="main_title">Простые вещи. Из бумаги</h1>
-        <p class="main_descr">
-          Бума́га (предположительно от итал. bombagia,
-          первоисточником же считается иранский)
-          — волокнистый материал с минеральными добавками.
+
+<section class="about">
+    <div class="xs-container">
+        <img src="assets/images/max-white.png" alt="max-white">
+
+        <h2 class="font-sz-24">Максимальная белизна</h2>
+        <p class="font-sz-16-light" style="margin-top: 14px">
+            Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел,
+            тальк, каолин и др. Эта операция называется наполнением.
+        </p>
+        <p class="font-sz-16-light" style="margin-top: 14px">
+            Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно
+            движущаяся (как транспортер) металлическая или капроновая сетка.
+        </p>
+    </div>
+</section>
+
+<section class="catalog">
+    <div class="xs-container">
+        <div class="catalog_card">
+            <img src="assets/images/bundles.png" alt="">
+            <h2 class="font-sz-16">Упаковка</h2>
+            <p class="font-sz-14-light">Тираж: от 50 штук</p>
+            <p class="font-sz-16-light">
+                Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим
+                форму
+                под заказ.
+            </p>
+
+            <div class="more_btn">
+                <p>Подробнее</p>
+                <img src="assets/icons/arrow_right.svg">
+            </div>
+        </div>
+
+        <div class="catalog_card">
+            <img src="assets/images/bundle.png" alt="">
+            <h2 class="font-sz-16">Пакеты</h2>
+            <p class="font-sz-14-light">Тираж: от 200 штук</p>
+            <p class="font-sz-16-light">
+                С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки
+                и дизайн.
+            </p>
+
+            <div class="more_btn">
+                <p>Подробнее</p>
+                <img src="assets/icons/arrow_right.svg">
+            </div>
+        </div>
+
+        <div class="catalog_card">
+            <img src="assets/images/briefcase.png" alt="">
+            <h2 class="font-sz-16">Упаковка</h2>
+            <p class="font-sz-14-light">Тираж: от 50 штук</p>
+            <p class="font-sz-16-light">
+                Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим
+                форму
+                под заказ.
+            </p>
+
+            <div class="more_btn">
+                <p>Подробнее</p>
+                <img src="assets/icons/arrow_right.svg">
+            </div>
+        </div>
+
+        <div class="catalog_card">
+            <img src="assets/images/other-articles.png" alt="">
+            <h2 class="font-sz-16">Упаковка</h2>
+            <p class="font-sz-14-light">Тираж: от 50 штук</p>
+            <p class="font-sz-16-light">
+                Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим
+                форму
+                под заказ.
+            </p>
+
+            <div class="more_btn">
+                <p>Подробнее</p>
+                <img src="assets/icons/arrow_right.svg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="partners">
+    <div class="xs-container">
+        <img src="assets/images/partner-logo1.svg" alt="partner1">
+        <img src="assets/images/partner-logo2.svg" alt="partner2">
+        <img src="assets/images/partner-logo3.svg" alt="partner3">
+        <img src="assets/images/partner-logo4.svg" alt="partner4">
+    </div>
+</section>
+
+
+<section class="scratch">
+    <div class="xs-container">
+        <img src="assets/images/scratchbook.png" alt="">
+        <h2 class="font-sz-24">Simple скетчбук</h2>
+        <p class="font-sz-16-light" style="margin-top: 20px; margin-bottom: 30px">
+            80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет и для графики и для
+            акварели. Для самых смелых творческих замыслов!
         </p>
 
-        <button class="main__catalog">
-          Каталог
-        </button>
-      </div>
-
-      <img src="assets/images/main-example.png" alt="" class="main_example">
+        <button class="sm-btn">Каталог</button>
     </div>
-  </section>
+</section>
 
-  <section class="advantages">
-    <div class="container">
-      <div class="wrapper">
-        <div class="card">
-          <span class="card__devider"></span>
-          <div class="card__content">
-            <img src="assets/images/card1.png" alt="" class="card__img">
-            <div class="card__discar">
-              <h1 class="card__title">
-                V.1
-              </h1>
-              <p class="card__descr">
-                Результат вашего обучения
-              </p>
-            </div>
-          </div>
-        </div>
+<section class="header_back">
+    <img src="assets/icons/logo.svg" alt="logo" class="header__logo">
 
-        <div class="card">
-          <span class="card__devider"></span>
-          <div class="card__content">
-            <img src="assets/images/card2.png" alt="" class="card__img">
-            <div class="card__discar">
-              <h1 class="card__title">
-                V.1
-              </h1>
-              <p class="card__descr">
-                Результат вашего обучения
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <span class="card__devider"></span>
-          <div class="card__content">
-            <img src="assets/images/card3.png" alt="" class="card__img">
-            <div class="card__discar">
-              <h1 class="card__title">
-                V.1
-              </h1>
-              <p class="card__descr">
-                Результат вашего обучения
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="frame_back">
+            <button><img src="assets/icons/Frame.svg" alt="frame" class="framee"></button>
+            <button><img src="assets/icons/Frame1.svg" alt="frame" class="framee"></button>
+            <button><img src="assets/icons/Frame2.svg" alt="frame" class="framee"></button>
+            <button><img src="assets/icons/Frame3.svg" alt="frame" class="framee"></button>
     </div>
-  </section>
+    <p class="front-back">Simple ® 2021</p>
+</section>
+
 
 </body>
-
 </html>

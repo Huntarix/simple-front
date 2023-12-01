@@ -1,0 +1,24 @@
+@media (min-width: 320px) {
+    .frame_back {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        background-color: var(--dark-grey-color);
+    }
+
+
+    .frame_back button {
+        background: none;
+        border: none;
+    }
+
+    .frame_back .framee {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .front-back {
+        text-align: center;
+        color: var(--middle-grey);
+    }
+}
