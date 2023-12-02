@@ -1,0 +1,56 @@
+.slider {
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    margin: 60px auto;
+}
+
+.slides {
+    display: flex;
+    transition: 1s;
+    width: 400vw; /* Для 4 слайдов */
+    height: auto;
+}
+
+.slide {
+    width: 100vw; /* Для 4 слайдов */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#slide1:checked ~ .slides {
+    transform: translateX(0%);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-100vw);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-200vw);
+}
+
+#slide4:checked ~ .slides {
+    transform: translateX(-300vw);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.navigation label {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+}

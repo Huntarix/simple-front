@@ -10,6 +10,7 @@
 @import "block/_partners.css";
 @import "block/_scratch.css";
 @import "block/_header_back.css";
+@import "block/_slider.css";
 
 * {
     margin: 0;

@@ -10,7 +10,8 @@
 
 <body>
 <header class="header">
-    <img src="assets/icons/logo.svg" alt="logo" class="header__logo">
+    <a href=""><img src="assets/icons/logo.svg" alt="logo" class="header__logo"></a>
+
 
     <nav class="menu">
         <a href="#">Продукция</a>
@@ -19,14 +20,16 @@
         <a href="#">Контакты</a>
     </nav>
 
-    <div class="header__wrapper">
-        <button><img src="assets/icons/menu.svg" alt="hamburger"></button>
-        <div class="header__right">
-            <button><img src="assets/icons/search.svg" alt="search"></button>
-            <button><img src="assets/icons/log_in.svg" alt="login"></button>
+
+        <div class="header__wrapper">
+            <button><a href="#menu"><img src="assets/icons/menu.svg" alt="hamburger"></a></button>
+            <div class="header__right">
+                <button><a href="#search"><img src="assets/icons/search.svg" alt="search"></a></button>
+                <button><a href="#login"><img src="assets/icons/log_in.svg" alt="login"></a></button>
+            </div>
         </div>
-    </div>
 </header>
+    
 
 <section class="promo">
     <h1 class="promo_title">Простые вещи. Из бумаги</h1>
@@ -96,7 +99,7 @@
             </p>
 
             <div class="more_btn">
-                <p>Подробнее</p>
+                <a href="#">Подробнее</a>
                 <img src="assets/icons/arrow_right.svg">
             </div>
         </div>
@@ -111,7 +114,7 @@
             </p>
 
             <div class="more_btn">
-                <p>Подробнее</p>
+                <a href="#">Подробнее</a>
                 <img src="assets/icons/arrow_right.svg">
             </div>
         </div>
@@ -127,7 +130,7 @@
             </p>
 
             <div class="more_btn">
-                <p>Подробнее</p>
+                <a href="#">Подробнее</a>
                 <img src="assets/icons/arrow_right.svg">
             </div>
         </div>
@@ -143,20 +146,38 @@
             </p>
 
             <div class="more_btn">
-                <p>Подробнее</p>
+                <a href="#">Подробнее</a>
                 <img src="assets/icons/arrow_right.svg">
             </div>
         </div>
     </div>
 </section>
 
-<section class="partners">
-    <div class="xs-container">
-        <img src="assets/images/partner-logo1.svg" alt="partner1">
-        <img src="assets/images/partner-logo2.svg" alt="partner2">
-        <img src="assets/images/partner-logo3.svg" alt="partner3">
-        <img src="assets/images/partner-logo4.svg" alt="partner4">
-    </div>
+<section class="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div class="slides">
+                <div class="slide s1">
+                    <img src="assets/images/partner-logo1.svg" alt="partner1" />
+                </div>
+                <div class="slide s2">
+                    <img src="assets/images/partner-logo2.svg" alt="partner2" />
+                </div>
+                <div class="slide s3">
+                    <img src="assets/images/partner-logo3.svg" alt="partner3" />
+                </div>
+                <div class="slide s4">
+                    <img src="assets/images/partner-logo4.svg" alt="partner4" />
+            </div>
+        </div>
+        <div class="navigation">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
 </section>
 
 
