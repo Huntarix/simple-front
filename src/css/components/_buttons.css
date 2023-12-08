@@ -9,7 +9,9 @@
     cursor: pointer;
 }
 
-.more_btn{
+
+
+.more_btn button{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,6 +19,8 @@
     cursor: pointer;
 }
 
+
 .more_btn p{
     margin-right: 5px;
+
 }

@@ -26,4 +26,10 @@
         width: 78px;
         justify-content: space-between;
     }
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
 }
