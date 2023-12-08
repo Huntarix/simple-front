@@ -5,6 +5,7 @@
     }
     
     .header_back {
+        padding: 15px 15px 0 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -37,5 +38,14 @@
         color: var(--middle-grey);
         background-color: var(--white-color);
     }
+    .header_back::after {
+        content: "";
+        display: block;
+        height: 1px;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    
+
     
 }
