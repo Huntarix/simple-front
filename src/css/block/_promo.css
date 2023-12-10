@@ -7,7 +7,7 @@
     }
     .promo_title {
         color: var(--dark-grey-color);
-        font-size: 30px;
+        font-size: 1.875rem;
         font-style: normal;
         font-weight: 400;
         margin-bottom: 15px;
@@ -16,10 +16,11 @@
 
     .promo_description{
         color: var(--middle-grey);
-        font-size: 14px;
+        font-size: 0.875rem; /* 14px/16px */
         font-style: normal;
         font-weight: 400;
         margin-bottom: 21px;
         width: 289px;
+        line-height: 1.5;
     }
 }
