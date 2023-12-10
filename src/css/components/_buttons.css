@@ -9,15 +9,20 @@
     cursor: pointer;
 }
 
-
-
 .more_btn button{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+
     color: var(--violet-color);
     cursor: pointer;
     font-size: 1.25rem;
+
+}
+
+.more_btn button img {
+    align-self: center;
+
 }
 
 

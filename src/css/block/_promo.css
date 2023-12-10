@@ -7,7 +7,7 @@
     }
     .promo_title {
         color: var(--dark-grey-color);
-        font-size: 1.875rem;
+        font-size: 1.875rem; /* 30хч/16зч */
         font-style: normal;
         font-weight: 400;
         margin-bottom: 15px;
