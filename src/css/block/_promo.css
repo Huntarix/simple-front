@@ -2,8 +2,12 @@
     .promo{
         display: block;
         height: 328px;
-        padding: 49px;
+        padding: 49px 16px 49px 15px;
         background: var(--white-color);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
     }
     .promo_title {
         color: var(--dark-grey-color);
@@ -24,3 +28,4 @@
         line-height: 1.5;
     }
 }
+
