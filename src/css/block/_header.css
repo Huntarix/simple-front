@@ -36,7 +36,7 @@
 
 
 
-@media (min-width: 510px) and (max-width: 1110px){
+@media (min-width: 510px) /*and (max-width: 1110px)*/{
     .header {
         display: flex;
         flex-direction: row;
