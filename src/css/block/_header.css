@@ -1,4 +1,4 @@
-@media (min-width: 320px) /*and (max-width: 510px)*/ {
+@media (min-width: 320px) and (max-width: 510px) {
     .menu {
         display: none;
     }
@@ -36,7 +36,7 @@
 
 
 
-/*@media (min-width: 510px) and (max-width: 1110px){
+@media (min-width: 510px) and (max-width: 1110px){
     .header {
         display: flex;
         flex-direction: row;
@@ -86,4 +86,4 @@
     button img[src="assets/icons/menu.svg"] {
         display: none;
     }
-}*/
+}
