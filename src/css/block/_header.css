@@ -4,9 +4,11 @@
     }
 
     .header {
-        display: block;
-        height: 105px;
-        background: var(--white-color);
+    align-self: center;
+    justify-self: center;
+    grid-column: span 2;
+    height: 105px;
+    background: var(--white-color);
     }
     .header__logo{
         width: 100%;
@@ -31,6 +33,7 @@
         background: none;
         border: none;
         cursor: pointer;
+        
     }
 }
 
