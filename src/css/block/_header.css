@@ -56,10 +56,9 @@
     }
 
     .header__wrapper{
-        display: flex;
-        flex-direction: row;
-        padding: 15px;
-        justify-content: space-between;
+        grid-column: span 1;
+        justify-self: start;
+        margin-left: 10%;
     }
 
     .header__right{
