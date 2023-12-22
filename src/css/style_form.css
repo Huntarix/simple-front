@@ -134,7 +134,12 @@ legend{
     padding-bottom: 10px;
 }
 
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
 
+}
 
 label {
     margin-bottom: 8px;
