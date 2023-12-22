@@ -49,7 +49,6 @@
 }
 
 .itema{
-    background-color: var(--light-purple);
     padding: 10px 20px;
     grid-column: -1/1;
     grid-row-start: 1;
