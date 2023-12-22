@@ -29,27 +29,29 @@
 }
 
 
-@keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+@keyframes skew {
+  from {
+    transform: skew(0deg);
   }
-  
-  button {
-    font-family: 'Roboto', sans-serif;
-    background-color: initial;
-    transition: background-color 0.5s ease;
+  to {
+    transform: skew(10deg);
   }
-  
-  button:hover {
-    background-color: var(--light-purple);
-    animation: rotate 2s linear infinite;
-  }
-  
-  button:active {
-    background-color: var(--dark-purple);
-  }
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  background-color: initial;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: var(--light-purple);
+  animation: skew 0.5s ease-in-out infinite alternate;
+}
+
+button:active {
+  background-color: var(--dark-purple);
+}
+
+
   
