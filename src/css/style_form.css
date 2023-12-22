@@ -16,6 +16,7 @@
 
 body {
     background: var(--ligth-gray-color);
+    
 }
 
 p{
@@ -63,7 +64,7 @@ button {
     background: none;
     border: none;
     cursor: pointer;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer {
@@ -112,34 +113,92 @@ button {
     margin-bottom: 15px;
 }
 
-input:checked+span {
-    color: rgb(24, 49, 195);
+
+
+
+form {
+    width: 300px;
+
 }
 
-.sr-only2{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
+.form1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.skip-link {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    padding: 10px 15px;
-    color: #18191c;
-    background: #10F3AF;
-    transform: translateY(-100%);
+
+legend{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.skip-link:focus {
-    transform: translateY(20%);
+
+
+
+label {
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input1{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 2px solid rgb(174, 18, 18);
+    font-family: 'Roboto', sans-serif;
+}
+
+.input2{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form_text{
+    color: #434343;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder {
+    color: rgb(212, 180, 212); /* Цвет текста плейсхолдера */
+    font-size: 1rem; /* Размер текста плейсхолдера */
+    font-weight: bold; /* Жирность текста плейсхолдера */
+}
+
+.reset {
+    margin-top: 10px;
+    margin-left: 8px;
+    background-color: #f44336;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label span {
+    color: red;
+    margin-left: 4px;
+}
+
+.span_text{
+    color: rgb(0, 0, 0);
 }
 
 
