@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #fff;
+    --ligth-gray-color: #EBEBEB;
+    --middle-grey: #85859B;
+    --dark-grey-color: #4C5866;
+    --violet-color: #7875FE;
+    --light-purple: #dd9aff;
+    --dark-purple: #dd1aff;
+}
+
+body {
+    background: var(--ligth-gray-color);
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
+
+.menu {
+    display: none;
+}
+
+.header {
+align-self: center;
+justify-self: center;
+grid-column: span 2;
+height: 105px;
+background: var(--white-color);
+}
+.header__logo{
+    width: 100%;
+    height: 22px;
+    margin: 11px;
+}
+
+.header__wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.header__right{
+    display: flex;
+    width: 78px;
+    justify-content: space-between;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.footer {
+    background-color: var(--dark-grey-color);
+}
+
+.header_back {
+    padding: 15px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-grey-color);
+}
+
+.header__logo2 {
+    width: 100%;
+    height: 22px;
+    margin: 11px;
+}
+
+.frame_back {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.frame_back button {
+    border: none;
+}
+
+.frame_back .framee {
+    display: block;
+    margin: 0 auto;
+}
+
+.front-back {
+    text-align: center;
+    color: var(--middle-grey);
+    background-color: var(--white-color);
+}
+.header_back::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+input:checked+span {
+    color: rgb(24, 49, 195);
+}
+
+.sr-only2{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.skip-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 10px 15px;
+    color: #18191c;
+    background: #10F3AF;
+    transform: translateY(-100%);
+}
+.skip-link:focus {
+    transform: translateY(20%);
+}
+
+
+
