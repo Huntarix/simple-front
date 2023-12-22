@@ -46,6 +46,28 @@
         margin-bottom: 15px;
     }
     
-
+    @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      
+      button {
+        font-family: 'Roboto', sans-serif;
+        background-color: initial;
+        transition: background-color 0.5s ease;
+      }
+      
+      button:hover {
+        background-color: var(--light-purple);
+        animation: rotate 2s linear infinite;
+      }
+      
+      button:active {
+        background-color: var(--dark-purple);
+      }
     
 }
