@@ -2,6 +2,8 @@
     width: 1110px;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
 .l-container {
@@ -20,4 +22,6 @@
     width: 290px;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    flex-direction: row;
 }
