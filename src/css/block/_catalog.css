@@ -2,12 +2,12 @@
     .catalog{
         margin-top: 60px;
         display: flex;
-
+        flex-direction: row;
         background: var(--white-color);
         padding: 60px 15px 60px 15px;
     }
     .catalog_card{
-        display: flex;
+        display: block;
         margin-top: 60px;
 
     }
