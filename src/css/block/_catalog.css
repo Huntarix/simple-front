@@ -7,10 +7,11 @@
         padding: 60px 15px 60px 15px;
     }
     .catalog_card{
-        display: block;
+        display: flex;
+        flex-direction: column;
         margin-top: 60px;
-
     }
+    
     .catalog_card img {
         margin-bottom: 20px;
     }
